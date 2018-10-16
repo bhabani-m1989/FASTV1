@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SuiteOne" duration-ms="5794" started-at="2018-10-16T07:58:53Z" finished-at="2018-10-16T07:58:59Z">
+    <groups>
+    </groups>
+    <test name="FirstTest" duration-ms="5794" started-at="2018-10-16T07:58:53Z" finished-at="2018-10-16T07:58:59Z">
+      <class name="appTests.Practice">
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:appTests.Practice@64bf3bbf]" name="LoginTest" duration-ms="2630" started-at="2018-10-16T07:58:53Z" finished-at="2018-10-16T07:58:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="CreateUser()[pri:1, instance:appTests.Practice@64bf3bbf]" name="CreateUser" duration-ms="756" started-at="2018-10-16T07:58:56Z" finished-at="2018-10-16T07:58:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateUser -->
+        <test-method status="PASS" signature="CreatePackage()[pri:2, instance:appTests.Practice@64bf3bbf]" name="CreatePackage" duration-ms="720" started-at="2018-10-16T07:58:56Z" finished-at="2018-10-16T07:58:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatePackage -->
+        <test-method status="PASS" signature="AddPeople()[pri:3, instance:appTests.Practice@64bf3bbf]" name="AddPeople" duration-ms="633" started-at="2018-10-16T07:58:57Z" finished-at="2018-10-16T07:58:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddPeople -->
+        <test-method status="SKIP" signature="LogOutTest()[pri:4, instance:appTests.Practice@64bf3bbf]" name="LogOutTest" duration-ms="778" started-at="2018-10-16T07:58:58Z" finished-at="2018-10-16T07:58:58Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Bug is logged for this test case]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Bug is logged for this test case
+at listeners.ExtentListener.onTestStart(ExtentListener.java:49)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:73)
+at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:559)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutTest -->
+      </class> <!-- appTests.Practice -->
+    </test> <!-- FirstTest -->
+  </suite> <!-- SuiteOne -->
+</testng-results>

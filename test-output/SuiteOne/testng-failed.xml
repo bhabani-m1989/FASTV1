@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteOne]">
+  <listeners>
+    <listener class-name="listeners.ExtentListener"/>
+  </listeners>
+  <test thread-count="5" name="FirstTest(failed)">
+    <classes>
+      <class name="appTests.Practice">
+        <methods>
+          <include name="LogOutTest"/>
+        </methods>
+      </class> <!-- appTests.Practice -->
+    </classes>
+  </test> <!-- FirstTest(failed) -->
+</suite> <!-- Failed suite [SuiteOne] -->

@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteOne">
+<listeners>
+<listener class-name="listeners.ExtentListener"  />
+</listeners>
+  <test name="FirstTest">
+    <classes>
+      <class name="appTests.Practice" >
+      <methods>
+      <exclude name=""/>
+      </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
