@@ -1,8 +1,7 @@
 package listeners;
 
 import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
+
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -18,6 +17,8 @@ import messages.MapStore;
 import messages.PTExceptions;
 import messages.PTupdates;
 import messages.SlackPost;
+import utils.CustomLog;
+
 
 public class ExtentListener implements ITestListener {
 	
@@ -29,6 +30,7 @@ public class ExtentListener implements ITestListener {
 	ExtentHtmlReporter reporter;
 	SlackPost p;
 	PTupdates pt;
+	CustomLog log;
 	
 	static int pass_count=0,fail_count=0,skip_count;
 
@@ -37,6 +39,9 @@ public class ExtentListener implements ITestListener {
 		
 		System.out.println("Starting test-->"+result.getName());
 		test= report.createTest(result.getName());
+		
+		log.startTest(result.getName());
+		log.info("The name of the test is "+result.getName());
 		
 		pt= new PTupdates();
 		String[] arr= pt.getTCName();
@@ -64,6 +69,8 @@ public class ExtentListener implements ITestListener {
 		}
 		pass_count++;
 		System.out.println(pass_count);
+		
+		log.info("The test case "+result.getName()+" passed successfully");
 	}
 
 	public void onTestFailure(ITestResult result) {
@@ -86,6 +93,8 @@ public class ExtentListener implements ITestListener {
 		
 		fail_count++;
 		System.out.println(fail_count);
+		log.error("The test case "+result.getName()+" was failed");
+		log.info("The test "+result.getName()+" has failed"+result.getThrowable().toString());
 		
 	}
 
@@ -99,6 +108,8 @@ public class ExtentListener implements ITestListener {
 		}
 		skip_count++;
 	//	System.out.println(skip_count);
+		
+		log.warn("The test case "+result.getName()+" was failed");
 		
 	}
 
@@ -118,6 +129,7 @@ public class ExtentListener implements ITestListener {
 		report.setSystemInfo("Browser","Chrome");
 		System.out.println("Starting test Suite-->"+context.getName());
 		m= new MapStore();
+	//	log.startTest(context.getName());
 	}
 
 	public void onFinish(ITestContext context) {
@@ -129,7 +141,9 @@ public class ExtentListener implements ITestListener {
 		p= new SlackPost();
 		p.postSlackMessage(pass_count,fail_count,skip_count);
 		
-		System.out.println("The stored data is "+m.mydata());
+	//System.out.println("The stored data is "+m.mydata());
+	//	log.endTest(context.getName());
+		
 		
 	}
 
