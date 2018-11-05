@@ -9,6 +9,8 @@
       <class name="appTests.Practice">
         <methods>
           <include name="createNewImplementation"/>
+          <include name="deleteNewIMplementation"/>
+          <include name="loginToSocio"/>
           <include name="init"/>
         </methods>
       </class> <!-- appTests.Practice -->

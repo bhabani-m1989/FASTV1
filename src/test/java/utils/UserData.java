@@ -2,6 +2,6 @@ package utils;
 
 public class UserData {
 	
-	public static String bname="chrome";   //["chrome","safari","firefox","headless","IE"]
+	public static String bname="chrome-headless";   //["chrome","safari","firefox","chrome-headless","IE"]
 
 }

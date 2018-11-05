@@ -43,7 +43,7 @@ public class CreateImplementation {
 	
 	//DashBoard
 	
-	By dashBoard=By.xpath("//header//a//span[text()='Dashboard']");
+	By dashBoard=By.xpath("//div[contains(@class,'header-links-wrapper')]//a//span[text()='Dashboard']");
 	
 	
 	public void clickCreateNewImplementation()
@@ -119,13 +119,14 @@ public class CreateImplementation {
        driver.findElement(submit).click();
        try
  	  {
-   	 Thread.sleep(1000);
+   	 Thread.sleep(4000);
       }
  	  catch(Exception e)
  	  {
  		  e.printStackTrace();
  	  }
-       
+       WebDriverWait wt1= new WebDriverWait(driver,20);
+       boolean b1=	wt1.until(ExpectedConditions.elementToBeClickable(dashBoard)).isDisplayed();
        driver.findElement(dashBoard).click();
        
        
