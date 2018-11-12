@@ -121,7 +121,7 @@ public class ExtentListener implements ITestListener {
 	public void onStart(ITestContext context) {
 		// TODO Auto-generated method stub
 		reporter= new ExtentHtmlReporter(new File(System.getProperty("user.dir")+"/WALReport.html"));
-		reporter.loadXMLConfig(new File("/Users/bhabanimishra/Documents/workspace/FAST/extent-config.xml"));
+		reporter.loadXMLConfig(new File(System.getProperty("user.dir")+"/extent-config.xml"));
 		report= new ExtentReports();
 		report.attachReporter(reporter);
 		report.setSystemInfo("Environment","QA");

@@ -25,3 +25,24 @@
 15:53:43.026 INFO  CustomLog -Trying to delete the created implementation
 15:53:44.169 INFO  CustomLog -IMplementation deleted succesfully
 15:53:44.169 INFO  CustomLog -The test case deleteNewIMplementation passed successfully
+16:06:49.334 INFO  CustomLog -Browser opening in full screen
+16:06:57.559 INFO  CustomLog -URL entered and the browser is navigated to the page
+16:06:57.593 INFO  CustomLog -***********************************************
+16:06:57.593 INFO  CustomLog -TestCase loginToSocio starts
+16:06:57.593 INFO  CustomLog -***********************************************
+16:06:57.594 INFO  CustomLog -The name of the test is loginToSocio
+16:07:00.773 INFO  CustomLog -attempting log in for socio
+16:07:01.359 INFO  CustomLog -successfully loggedin to socio
+16:07:01.371 INFO  CustomLog -The test case loginToSocio passed successfully
+16:07:01.373 INFO  CustomLog -***********************************************
+16:07:01.373 INFO  CustomLog -TestCase createNewImplementation starts
+16:07:01.374 INFO  CustomLog -***********************************************
+16:07:01.374 INFO  CustomLog -The name of the test is createNewImplementation
+16:07:27.439 INFO  CustomLog -The test case createNewImplementation passed successfully
+16:07:27.440 INFO  CustomLog -***********************************************
+16:07:27.440 INFO  CustomLog -TestCase deleteNewIMplementation starts
+16:07:27.440 INFO  CustomLog -***********************************************
+16:07:27.440 INFO  CustomLog -The name of the test is deleteNewIMplementation
+16:07:27.911 INFO  CustomLog -Trying to delete the created implementation
+16:07:29.056 INFO  CustomLog -IMplementation deleted succesfully
+16:07:29.057 INFO  CustomLog -The test case deleteNewIMplementation passed successfully
