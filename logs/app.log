@@ -46,3 +46,133 @@
 16:07:27.911 INFO  CustomLog -Trying to delete the created implementation
 16:07:29.056 INFO  CustomLog -IMplementation deleted succesfully
 16:07:29.057 INFO  CustomLog -The test case deleteNewIMplementation passed successfully
+16:14:12.261 INFO  CustomLog -Browser opening in full screen
+16:14:17.139 INFO  CustomLog -URL entered and the browser is navigated to the page
+16:14:17.171 INFO  CustomLog -***********************************************
+16:14:17.171 INFO  CustomLog -TestCase loginToSocio starts
+16:14:17.171 INFO  CustomLog -***********************************************
+16:14:17.171 INFO  CustomLog -The name of the test is loginToSocio
+16:14:20.279 WARN  CustomLog -The test case loginToSocio was failed
+16:14:20.284 INFO  CustomLog -***********************************************
+16:14:20.284 INFO  CustomLog -TestCase createNewImplementation starts
+16:14:20.284 INFO  CustomLog -***********************************************
+16:14:20.285 INFO  CustomLog -The name of the test is createNewImplementation
+16:14:31.883 ERROR CustomLog -The test case createNewImplementation was failed
+16:14:31.885 INFO  CustomLog -The test createNewImplementation has failedorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text() = 'Get Started']"}
+  (Session info: headless chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.14.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Bhabanis-MacBook-Air.local', ip: 'fe80:0:0:0:cc2:71a6:cce6:f2e4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/gw/3mc_q9b56fj...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53321}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 77aaf52632253b7702f9b0e844c0d3a1
+*** Element info: {Using=xpath, value=//button[text() = 'Get Started']}
+16:14:31.886 INFO  CustomLog -***********************************************
+16:14:31.886 INFO  CustomLog -TestCase deleteNewIMplementation starts
+16:14:31.886 INFO  CustomLog -***********************************************
+16:14:31.887 INFO  CustomLog -The name of the test is deleteNewIMplementation
+16:14:32.363 INFO  CustomLog -Trying to delete the created implementation
+16:14:43.196 ERROR CustomLog -The test case deleteNewIMplementation was failed
+16:14:43.199 INFO  CustomLog -The test deleteNewIMplementation has failedorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'home-implementation-info')]//button[text()='Delete']"}
+  (Session info: headless chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.14.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Bhabanis-MacBook-Air.local', ip: 'fe80:0:0:0:cc2:71a6:cce6:f2e4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/gw/3mc_q9b56fj...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53321}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 77aaf52632253b7702f9b0e844c0d3a1
+*** Element info: {Using=xpath, value=//div[contains(@class,'home-implementation-info')]//button[text()='Delete']}
+16:15:31.591 INFO  CustomLog -Browser opening in full screen
+16:15:36.311 INFO  CustomLog -URL entered and the browser is navigated to the page
+16:15:36.332 INFO  CustomLog -***********************************************
+16:15:36.332 INFO  CustomLog -TestCase loginToSocio starts
+16:15:36.332 INFO  CustomLog -***********************************************
+16:15:36.332 INFO  CustomLog -The name of the test is loginToSocio
+16:15:43.057 INFO  CustomLog -attempting log in for socio
+16:15:43.433 INFO  CustomLog -successfully loggedin to socio
+16:15:43.443 INFO  CustomLog -The test case loginToSocio passed successfully
+16:15:43.445 INFO  CustomLog -***********************************************
+16:15:43.445 INFO  CustomLog -TestCase createNewImplementation starts
+16:15:43.446 INFO  CustomLog -***********************************************
+16:15:43.446 INFO  CustomLog -The name of the test is createNewImplementation
+16:16:16.251 INFO  CustomLog -The test case createNewImplementation passed successfully
+16:16:16.253 INFO  CustomLog -***********************************************
+16:16:16.253 INFO  CustomLog -TestCase deleteNewIMplementation starts
+16:16:16.253 INFO  CustomLog -***********************************************
+16:16:16.253 INFO  CustomLog -The name of the test is deleteNewIMplementation
+16:16:16.732 INFO  CustomLog -Trying to delete the created implementation
+16:16:17.872 INFO  CustomLog -IMplementation deleted succesfully
+16:16:17.872 INFO  CustomLog -The test case deleteNewIMplementation passed successfully
+16:32:00.559 INFO  CustomLog -Browser opening in full screen
+16:32:10.873 INFO  CustomLog -URL entered and the browser is navigated to the page
+16:32:10.907 INFO  CustomLog -***********************************************
+16:32:10.907 INFO  CustomLog -TestCase loginToSocio starts
+16:32:10.908 INFO  CustomLog -***********************************************
+16:32:10.908 INFO  CustomLog -The name of the test is loginToSocio
+16:32:14.090 INFO  CustomLog -attempting log in for socio
+16:32:14.558 INFO  CustomLog -successfully loggedin to socio
+16:32:14.570 INFO  CustomLog -The test case loginToSocio passed successfully
+16:32:14.573 INFO  CustomLog -***********************************************
+16:32:14.573 INFO  CustomLog -TestCase createNewImplementation starts
+16:32:14.573 INFO  CustomLog -***********************************************
+16:32:14.574 INFO  CustomLog -The name of the test is createNewImplementation
+16:33:01.313 ERROR CustomLog -The test case createNewImplementation was failed
+16:33:01.314 INFO  CustomLog -The test createNewImplementation has failedorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(@class,'header-links-wrapper')]//a//span[text()='Dashboard'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Bhabanis-MacBook-Air.local', ip: 'fe80:0:0:0:cc2:71a6:cce6:f2e4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/gw/3mc_q9b56fj...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53485}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 8bb770625f2a2d17b54e2ccbff2e47ed
+16:33:01.316 INFO  CustomLog -***********************************************
+16:33:01.316 INFO  CustomLog -TestCase deleteNewIMplementation starts
+16:33:01.316 INFO  CustomLog -***********************************************
+16:33:01.316 INFO  CustomLog -The name of the test is deleteNewIMplementation
+16:33:01.803 INFO  CustomLog -Trying to delete the created implementation
+16:33:12.616 ERROR CustomLog -The test case deleteNewIMplementation was failed
+16:33:12.616 INFO  CustomLog -The test deleteNewIMplementation has failedorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'home-implementation-info')]//button[text()='Delete']"}
+  (Session info: headless chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.14.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Bhabanis-MacBook-Air.local', ip: 'fe80:0:0:0:cc2:71a6:cce6:f2e4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/gw/3mc_q9b56fj...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53485}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 8bb770625f2a2d17b54e2ccbff2e47ed
+*** Element info: {Using=xpath, value=//div[contains(@class,'home-implementation-info')]//button[text()='Delete']}
+16:35:34.179 INFO  CustomLog -Browser opening in full screen
+16:35:39.012 INFO  CustomLog -URL entered and the browser is navigated to the page
+16:35:39.030 INFO  CustomLog -***********************************************
+16:35:39.030 INFO  CustomLog -TestCase loginToSocio starts
+16:35:39.031 INFO  CustomLog -***********************************************
+16:35:39.031 INFO  CustomLog -The name of the test is loginToSocio
+16:35:41.374 INFO  CustomLog -attempting log in for socio
+16:35:41.818 INFO  CustomLog -successfully loggedin to socio
+16:35:41.830 INFO  CustomLog -The test case loginToSocio passed successfully
+16:35:41.832 INFO  CustomLog -***********************************************
+16:35:41.832 INFO  CustomLog -TestCase createNewImplementation starts
+16:35:41.832 INFO  CustomLog -***********************************************
+16:35:41.832 INFO  CustomLog -The name of the test is createNewImplementation
+16:35:53.411 ERROR CustomLog -The test case createNewImplementation was failed
+16:35:53.413 INFO  CustomLog -The test createNewImplementation has failedorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text() = 'Get Started']"}
+  (Session info: headless chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.14.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Bhabanis-MacBook-Air.local', ip: 'fe80:0:0:0:cc2:71a6:cce6:f2e4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/gw/3mc_q9b56fj...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53532}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 8630f406b83cd5f3941d9d226f622bc8
+*** Element info: {Using=xpath, value=//button[text() = 'Get Started']}
+16:35:53.426 INFO  CustomLog -***********************************************
+16:35:53.426 INFO  CustomLog -TestCase deleteNewIMplementation starts
+16:35:53.426 INFO  CustomLog -***********************************************
+16:35:53.426 INFO  CustomLog -The name of the test is deleteNewIMplementation
+16:35:53.915 INFO  CustomLog -Trying to delete the created implementation
+16:35:55.084 INFO  CustomLog -IMplementation deleted succesfully
+16:35:55.084 INFO  CustomLog -The test case deleteNewIMplementation passed successfully

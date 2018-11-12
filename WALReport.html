@@ -40,7 +40,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a>
-				<span class='suite-start-time'>12 Nov, 2018 4:06:36 PM</span>
+				<span class='suite-start-time'>12 Nov, 2018 4:35:22 PM</span>
 			</a>
 			<a>
 				<span>v3.0.0</span>
@@ -125,10 +125,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span><span class='strong'>3</span> test(s) passed</span>
+					<span><span class='strong'>2</span> test(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong'>0</span> test(s) failed, <span class='strong'>0</span> others
+					<span class='strong'>1</span> test(s) failed, <span class='strong'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -140,10 +140,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span><span class='strong'>3</span> step(s) passed</span>
+					<span><span class='strong'>2</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong'>0</span> step(s) failed, <span class='strong'>0</span> others
+					<span class='strong'>1</span> step(s) failed, <span class='strong'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -162,14 +162,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>loginToSocio</span>
-						<span class='test-time'>12 Nov, 2018 4:06:57 PM</span>
+						<span class='test-time'>12 Nov, 2018 4:35:39 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>12 Nov, 2018 4:06:57 PM</span>
-	<span class='label end-time'>12 Nov, 2018 4:07:34 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 36s+955ms</span>
+	<span class='label start-time'>12 Nov, 2018 4:35:39 PM</span>
+	<span class='label end-time'>12 Nov, 2018 4:36:00 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 21s+425ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -183,7 +183,7 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>4:07:01 PM</td>
+					<td class='timestamp'>4:35:41 PM</td>
 					<td class='step-details'>The test loginToSocio has passed</td>
 				</tr>
 			</tbody>
@@ -193,17 +193,17 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='2'>
 					<div class='test-heading'>
 						<span class='test-name'>createNewImplementation</span>
-						<span class='test-time'>12 Nov, 2018 4:07:01 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>12 Nov, 2018 4:35:41 PM</span>
+						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>12 Nov, 2018 4:07:01 PM</span>
-	<span class='label end-time'>12 Nov, 2018 4:07:34 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 33s+175ms</span>
+	<span class='label start-time'>12 Nov, 2018 4:35:41 PM</span>
+	<span class='label end-time'>12 Nov, 2018 4:36:00 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 18s+623ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -215,10 +215,20 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>4:07:27 PM</td>
-					<td class='step-details'>The test createNewImplementation has passed</td>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>4:35:53 PM</td>
+					<td class='step-details'>The test createNewImplementation has failedorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text() = 'Get Started']"}
+  (Session info: headless chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.14.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Bhabanis-MacBook-Air.local', ip: 'fe80:0:0:0:cc2:71a6:cce6:f2e4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/gw/3mc_q9b56fj...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53532}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 8630f406b83cd5f3941d9d226f622bc8
+*** Element info: {Using=xpath, value=//button[text() = 'Get Started']}</td>
 				</tr>
 			</tbody>
 		</table>
@@ -230,14 +240,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
 					<div class='test-heading'>
 						<span class='test-name'>deleteNewIMplementation</span>
-						<span class='test-time'>12 Nov, 2018 4:07:27 PM</span>
+						<span class='test-time'>12 Nov, 2018 4:35:53 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>12 Nov, 2018 4:07:27 PM</span>
-	<span class='label end-time'>12 Nov, 2018 4:07:34 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 7s+108ms</span>
+	<span class='label start-time'>12 Nov, 2018 4:35:53 PM</span>
+	<span class='label end-time'>12 Nov, 2018 4:36:00 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 7s+29ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -251,7 +261,7 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>4:07:29 PM</td>
+					<td class='timestamp'>4:35:55 PM</td>
 					<td class='step-details'>The test deleteNewIMplementation has passed</td>
 				</tr>
 			</tbody>
@@ -303,19 +313,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>12 Nov, 2018 4:06:36 PM</div>
+					<div class='panel-lead'>12 Nov, 2018 4:35:22 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>12 Nov, 2018 4:07:34 PM</div>
+			 		<div class='panel-lead'>12 Nov, 2018 4:36:00 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>58,353ms</div>
+					<div class='panel-lead'>38,453ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -367,16 +377,16 @@
 
 		<script>
 			var statusGroup = {
-				passParent: 3,
-				failParent: 0,
+				passParent: 2,
+				failParent: 1,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
 				unknownParent: 0,
 				
-				passChild: 3,
-				failChild: 0,
+				passChild: 2,
+				failChild: 1,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
