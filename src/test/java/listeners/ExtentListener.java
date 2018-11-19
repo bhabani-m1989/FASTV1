@@ -13,17 +13,18 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
+import messages.BugExceptions;
 import messages.MapStore;
-import messages.PTExceptions;
 import messages.PTupdates;
 import messages.SlackPost;
 import utils.CustomLog;
+import utils.UserData;
 
 
 public class ExtentListener implements ITestListener {
 	
 	MapStore m;
-	PTExceptions ex;
+	BugExceptions ex;
 	String s="";
 	ExtentReports report;
 	ExtentTest test;
@@ -51,7 +52,7 @@ public class ExtentListener implements ITestListener {
 			{
 				
 				test.log(Status.SKIP, "The test "+result.getName()+" has been skipped");
-				throw new SkipException("Bug is logged for this test case");
+				throw new SkipException("Bug is already logged for this test case");
 				
 			}
 			
@@ -86,8 +87,9 @@ public class ExtentListener implements ITestListener {
 		{
 			s=th.getMessage();
 		}
-		ex=  new PTExceptions();
-		ex.createPTIssue(name,s);
+		ex=  new BugExceptions();
+		ex.createBugType(UserData.trackerTool,name,s);
+//		ex.createPTIssue(name,s);
 		}
 		test.log(Status.FAIL, "The test "+result.getName()+" has failed"+result.getThrowable().toString());
 		
