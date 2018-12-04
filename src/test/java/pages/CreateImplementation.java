@@ -45,6 +45,37 @@ public class CreateImplementation {
 	
 	By dashBoard=By.xpath("//div[contains(@class,'header-links-wrapper')]//a//span[text()='Dashboard']");
 	
+	//NewImplementation button in home page
+	
+	By newImplementationHome=By.xpath("//button//span[text()='New Implementation']");
+	
+	public void chooseImplementationtypes()
+	{
+		List<WebElement> elm = driver.findElements(getStarted);
+		if(elm.size()!=0)
+		{
+			clickCreateNewImplementation();
+		}
+		else
+		{
+			clicknewImplementationHome();
+		}
+	}
+	
+	public void clicknewImplementationHome()
+	{
+		driver.findElement(newImplementationHome).click();
+		try{
+			Thread.sleep(3000);
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+		driver.findElement(clinicalPopup).click();
+		driver.findElement(createNew).click();
+		
+	}
 	
 	public void clickCreateNewImplementation()
 	{

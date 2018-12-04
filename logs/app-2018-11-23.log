@@ -1,0 +1,272 @@
+10:39:17.398 INFO  CustomLog -Browser opening in full screen
+10:40:14.990 INFO  CustomLog -Browser opening in full screen
+10:41:17.615 INFO  CustomLog -URL entered and the browser is navigated to the page
+10:41:17.633 INFO  CustomLog -***********************************************
+10:41:17.634 INFO  CustomLog -TestCase loginToSocio starts
+10:41:17.634 INFO  CustomLog -***********************************************
+10:41:17.634 INFO  CustomLog -The name of the test is loginToSocio
+10:41:20.777 INFO  CustomLog -attempting log in for socio
+10:41:21.204 INFO  CustomLog -successfully loggedin to socio
+10:41:21.213 INFO  CustomLog -The test case loginToSocio passed successfully
+10:41:21.215 INFO  CustomLog -***********************************************
+10:41:21.216 INFO  CustomLog -TestCase createNewImplementation starts
+10:41:21.216 INFO  CustomLog -***********************************************
+10:41:21.216 INFO  CustomLog -The name of the test is createNewImplementation
+10:41:36.215 ERROR CustomLog -The test case createNewImplementation was failed
+10:41:36.216 INFO  CustomLog -The test createNewImplementation has failedorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text() = 'Get Started']"}
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.14.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Bhabanis-MacBook-Air.local', ip: 'fc00:0:0:0:0:0:0:13a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/gw/3mc_q9b56fj...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59046}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: c16667b4350e5a6717cb8a861cb7c10b
+*** Element info: {Using=xpath, value=//button[text() = 'Get Started']}
+10:41:36.217 INFO  CustomLog -***********************************************
+10:41:36.217 INFO  CustomLog -TestCase deleteNewIMplementation starts
+10:41:36.217 INFO  CustomLog -***********************************************
+10:41:36.217 INFO  CustomLog -The name of the test is deleteNewIMplementation
+10:41:36.895 INFO  CustomLog -Trying to delete the created implementation
+10:41:37.964 ERROR CustomLog -The test case deleteNewIMplementation was failed
+10:41:37.965 INFO  CustomLog -The test deleteNewIMplementation has failedorg.openqa.selenium.WebDriverException: unknown error: Element <button _ngcontent-c7="" class="home-implementation-data-btn home-implementation-delete-btn ng-star-inserted" type="button">...</button> is not clickable at point (1286, 353). Other element would receive the click: <div _ngcontent-c10="" class="popup-body show-flex-display" id="select_first_implementation">...</div>
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.14.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Bhabanis-MacBook-Air.local', ip: 'fc00:0:0:0:0:0:0:13a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/gw/3mc_q9b56fj...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59046}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: c16667b4350e5a6717cb8a861cb7c10b
+10:43:38.458 INFO  CustomLog -Browser opening in full screen
+10:43:53.114 INFO  CustomLog -URL entered and the browser is navigated to the page
+10:43:53.137 INFO  CustomLog -***********************************************
+10:43:53.137 INFO  CustomLog -TestCase loginToSocio starts
+10:43:53.137 INFO  CustomLog -***********************************************
+10:43:53.137 INFO  CustomLog -The name of the test is loginToSocio
+10:43:55.516 INFO  CustomLog -attempting log in for socio
+10:43:55.970 INFO  CustomLog -successfully loggedin to socio
+10:43:55.983 INFO  CustomLog -The test case loginToSocio passed successfully
+10:43:55.986 INFO  CustomLog -***********************************************
+10:43:55.986 INFO  CustomLog -TestCase createNewImplementation starts
+10:43:55.986 INFO  CustomLog -***********************************************
+10:43:55.986 INFO  CustomLog -The name of the test is createNewImplementation
+10:44:26.057 INFO  CustomLog -The test case createNewImplementation passed successfully
+10:44:26.060 INFO  CustomLog -***********************************************
+10:44:26.060 INFO  CustomLog -TestCase deleteNewIMplementation starts
+10:44:26.060 INFO  CustomLog -***********************************************
+10:44:26.060 INFO  CustomLog -The name of the test is deleteNewIMplementation
+10:44:27.877 INFO  CustomLog -Trying to delete the created implementation
+10:44:29.073 INFO  CustomLog -IMplementation deleted succesfully
+10:44:29.073 INFO  CustomLog -The test case deleteNewIMplementation passed successfully
+11:21:14.110 INFO  CustomLog -Browser opening in full screen
+11:21:29.274 INFO  CustomLog -URL entered and the browser is navigated to the page
+11:21:29.309 INFO  CustomLog -***********************************************
+11:21:29.310 INFO  CustomLog -TestCase loginToSocio starts
+11:21:29.310 INFO  CustomLog -***********************************************
+11:21:29.310 INFO  CustomLog -The name of the test is loginToSocio
+11:21:31.632 INFO  CustomLog -attempting log in for socio
+11:21:32.097 INFO  CustomLog -successfully loggedin to socio
+11:21:32.112 INFO  CustomLog -The test case loginToSocio passed successfully
+11:21:32.116 INFO  CustomLog -***********************************************
+11:21:32.117 INFO  CustomLog -TestCase createNewImplementation starts
+11:21:32.117 INFO  CustomLog -***********************************************
+11:21:32.117 INFO  CustomLog -The name of the test is createNewImplementation
+11:22:14.583 INFO  CustomLog -The test case createNewImplementation passed successfully
+11:23:07.905 INFO  CustomLog -Browser opening in full screen
+11:23:24.476 INFO  CustomLog -URL entered and the browser is navigated to the page
+11:23:24.509 INFO  CustomLog -***********************************************
+11:23:24.509 INFO  CustomLog -TestCase loginToSocio starts
+11:23:24.509 INFO  CustomLog -***********************************************
+11:23:24.509 INFO  CustomLog -The name of the test is loginToSocio
+11:23:26.929 INFO  CustomLog -attempting log in for socio
+11:23:27.346 INFO  CustomLog -successfully loggedin to socio
+11:23:27.358 INFO  CustomLog -The test case loginToSocio passed successfully
+11:23:27.362 INFO  CustomLog -***********************************************
+11:23:27.362 INFO  CustomLog -TestCase createNewImplementation starts
+11:23:27.362 INFO  CustomLog -***********************************************
+11:23:27.362 INFO  CustomLog -The name of the test is createNewImplementation
+11:23:57.116 INFO  CustomLog -The test case createNewImplementation passed successfully
+11:24:34.172 INFO  CustomLog -Browser opening in full screen
+11:24:49.279 INFO  CustomLog -URL entered and the browser is navigated to the page
+11:24:49.309 INFO  CustomLog -***********************************************
+11:24:49.309 INFO  CustomLog -TestCase loginToSocio starts
+11:24:49.309 INFO  CustomLog -***********************************************
+11:24:49.309 INFO  CustomLog -The name of the test is loginToSocio
+11:24:51.645 INFO  CustomLog -attempting log in for socio
+11:24:52.100 INFO  CustomLog -successfully loggedin to socio
+11:24:52.113 INFO  CustomLog -The test case loginToSocio passed successfully
+11:24:52.116 INFO  CustomLog -***********************************************
+11:24:52.117 INFO  CustomLog -TestCase createNewImplementation starts
+11:24:52.117 INFO  CustomLog -***********************************************
+11:24:52.117 INFO  CustomLog -The name of the test is createNewImplementation
+11:25:32.630 INFO  CustomLog -The test case createNewImplementation passed successfully
+11:28:52.788 INFO  CustomLog -Browser opening in full screen
+11:29:17.663 INFO  CustomLog -URL entered and the browser is navigated to the page
+11:29:17.691 INFO  CustomLog -***********************************************
+11:29:17.692 INFO  CustomLog -TestCase loginToSocio starts
+11:29:17.692 INFO  CustomLog -***********************************************
+11:29:17.692 INFO  CustomLog -The name of the test is loginToSocio
+11:29:20.241 INFO  CustomLog -attempting log in for socio
+11:29:20.690 INFO  CustomLog -successfully loggedin to socio
+11:29:20.701 INFO  CustomLog -The test case loginToSocio passed successfully
+11:29:20.703 INFO  CustomLog -***********************************************
+11:29:20.703 INFO  CustomLog -TestCase createNewImplementation starts
+11:29:20.703 INFO  CustomLog -***********************************************
+11:29:20.703 INFO  CustomLog -The name of the test is createNewImplementation
+11:30:06.168 INFO  CustomLog -The test case createNewImplementation passed successfully
+11:30:06.171 INFO  CustomLog -***********************************************
+11:30:06.172 INFO  CustomLog -TestCase deleteNewIMplementation starts
+11:30:06.172 INFO  CustomLog -***********************************************
+11:30:06.172 INFO  CustomLog -The name of the test is deleteNewIMplementation
+11:30:08.303 INFO  CustomLog -Trying to delete the created implementation
+11:30:09.450 INFO  CustomLog -IMplementation deleted succesfully
+11:30:09.451 INFO  CustomLog -The test case deleteNewIMplementation passed successfully
+11:34:24.416 INFO  CustomLog -Browser opening in full screen
+11:34:48.955 INFO  CustomLog -URL entered and the browser is navigated to the page
+11:34:48.981 INFO  CustomLog -***********************************************
+11:34:48.981 INFO  CustomLog -TestCase loginToSocio starts
+11:34:48.981 INFO  CustomLog -***********************************************
+11:34:48.981 INFO  CustomLog -The name of the test is loginToSocio
+11:34:51.544 INFO  CustomLog -attempting log in for socio
+11:34:51.953 INFO  CustomLog -successfully loggedin to socio
+11:34:51.966 INFO  CustomLog -The test case loginToSocio passed successfully
+11:34:51.969 INFO  CustomLog -***********************************************
+11:34:51.969 INFO  CustomLog -TestCase createNewImplementation starts
+11:34:51.969 INFO  CustomLog -***********************************************
+11:34:51.969 INFO  CustomLog -The name of the test is createNewImplementation
+11:35:29.054 INFO  CustomLog -The test case createNewImplementation passed successfully
+11:35:29.058 INFO  CustomLog -***********************************************
+11:35:29.058 INFO  CustomLog -TestCase deleteNewIMplementation starts
+11:35:29.059 INFO  CustomLog -***********************************************
+11:35:29.059 INFO  CustomLog -The name of the test is deleteNewIMplementation
+11:35:29.749 INFO  CustomLog -Trying to delete the created implementation
+11:35:32.020 ERROR CustomLog -The test case deleteNewIMplementation was failed
+11:35:32.021 INFO  CustomLog -The test deleteNewIMplementation has failedorg.openqa.selenium.WebDriverException: unknown error: Element <button _ngcontent-c7="" class="home-implementation-data-btn home-implementation-delete-btn ng-star-inserted" type="button">...</button> is not clickable at point (1286, 353). Other element would receive the click: <div _ngcontent-c10="" class="popup-body show-flex-display" id="select_first_implementation">...</div>
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.14.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Bhabanis-MacBook-Air.local', ip: 'fc00:0:0:0:0:0:0:13a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/gw/3mc_q9b56fj...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63157}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 95cefd7e71363ae7b2b552ac5c708411
+11:39:48.314 INFO  CustomLog -Browser opening in full screen
+11:40:12.912 INFO  CustomLog -URL entered and the browser is navigated to the page
+11:40:12.939 INFO  CustomLog -***********************************************
+11:40:12.939 INFO  CustomLog -TestCase loginToSocio starts
+11:40:12.940 INFO  CustomLog -***********************************************
+11:40:12.940 INFO  CustomLog -The name of the test is loginToSocio
+11:40:15.383 INFO  CustomLog -attempting log in for socio
+11:40:15.814 INFO  CustomLog -successfully loggedin to socio
+11:40:15.829 INFO  CustomLog -The test case loginToSocio passed successfully
+11:40:15.831 INFO  CustomLog -***********************************************
+11:40:15.831 INFO  CustomLog -TestCase createNewImplementation starts
+11:40:15.831 INFO  CustomLog -***********************************************
+11:40:15.832 INFO  CustomLog -The name of the test is createNewImplementation
+11:41:03.267 INFO  CustomLog -The test case createNewImplementation passed successfully
+11:41:03.271 INFO  CustomLog -***********************************************
+11:41:03.271 INFO  CustomLog -TestCase deleteNewIMplementation starts
+11:41:03.272 INFO  CustomLog -***********************************************
+11:41:03.273 INFO  CustomLog -The name of the test is deleteNewIMplementation
+11:41:03.993 WARN  CustomLog -The test case deleteNewIMplementation was failed
+11:42:15.598 INFO  CustomLog -Browser opening in full screen
+11:42:27.102 INFO  CustomLog -URL entered and the browser is navigated to the page
+11:42:27.126 INFO  CustomLog -attempting log in for socio
+11:42:27.504 INFO  CustomLog -successfully loggedin to socio
+11:42:58.494 INFO  CustomLog -Trying to delete the created implementation
+11:45:00.293 INFO  CustomLog -Browser opening in full screen
+11:45:17.907 INFO  CustomLog -URL entered and the browser is navigated to the page
+11:45:17.938 INFO  CustomLog -attempting log in for socio
+11:45:18.325 INFO  CustomLog -successfully loggedin to socio
+11:45:49.299 INFO  CustomLog -Trying to delete the created implementation
+11:46:59.118 INFO  CustomLog -Browser opening in full screen
+11:47:21.180 INFO  CustomLog -URL entered and the browser is navigated to the page
+11:47:21.208 INFO  CustomLog -***********************************************
+11:47:21.208 INFO  CustomLog -TestCase loginToSocio starts
+11:47:21.208 INFO  CustomLog -***********************************************
+11:47:21.208 INFO  CustomLog -The name of the test is loginToSocio
+11:47:23.564 INFO  CustomLog -attempting log in for socio
+11:47:23.997 INFO  CustomLog -successfully loggedin to socio
+11:47:24.011 INFO  CustomLog -The test case loginToSocio passed successfully
+11:47:24.013 INFO  CustomLog -***********************************************
+11:47:24.013 INFO  CustomLog -TestCase createNewImplementation starts
+11:47:24.013 INFO  CustomLog -***********************************************
+11:47:24.013 INFO  CustomLog -The name of the test is createNewImplementation
+11:47:56.761 ERROR CustomLog -The test case createNewImplementation was failed
+11:47:56.761 INFO  CustomLog -The test createNewImplementation has failedorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h2[text()='Setup'] (tried for 20 second(s) with 500 milliseconds interval)
+11:47:56.764 INFO  CustomLog -***********************************************
+11:47:56.764 INFO  CustomLog -TestCase deleteNewIMplementation starts
+11:47:56.764 INFO  CustomLog -***********************************************
+11:47:56.764 INFO  CustomLog -The name of the test is deleteNewIMplementation
+11:47:57.515 INFO  CustomLog -Trying to delete the created implementation
+11:47:59.507 ERROR CustomLog -The test case deleteNewIMplementation was failed
+11:47:59.508 INFO  CustomLog -The test deleteNewIMplementation has failedorg.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.14.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Bhabanis-MacBook-Air.local', ip: 'fc00:0:0:0:0:0:0:13a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/gw/3mc_q9b56fj...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49460}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 257585a425c270d88150241b9eca9254
+*** Element info: {Using=xpath, value=//div[@class='popup-content']//div/div//button//span[text()='Continue']}
+11:48:42.529 INFO  CustomLog -Browser opening in full screen
+11:49:07.953 INFO  CustomLog -URL entered and the browser is navigated to the page
+11:49:07.986 INFO  CustomLog -***********************************************
+11:49:07.986 INFO  CustomLog -TestCase loginToSocio starts
+11:49:07.987 INFO  CustomLog -***********************************************
+11:49:07.988 INFO  CustomLog -The name of the test is loginToSocio
+11:49:10.349 INFO  CustomLog -attempting log in for socio
+11:49:10.799 INFO  CustomLog -successfully loggedin to socio
+11:49:10.815 INFO  CustomLog -The test case loginToSocio passed successfully
+11:49:10.820 INFO  CustomLog -***********************************************
+11:49:10.820 INFO  CustomLog -TestCase createNewImplementation starts
+11:49:10.820 INFO  CustomLog -***********************************************
+11:49:10.821 INFO  CustomLog -The name of the test is createNewImplementation
+11:49:56.850 INFO  CustomLog -The test case createNewImplementation passed successfully
+11:49:56.853 INFO  CustomLog -***********************************************
+11:49:56.853 INFO  CustomLog -TestCase deleteNewIMplementation starts
+11:49:56.853 INFO  CustomLog -***********************************************
+11:49:56.853 INFO  CustomLog -The name of the test is deleteNewIMplementation
+11:49:57.649 INFO  CustomLog -Trying to delete the created implementation
+11:49:59.933 ERROR CustomLog -The test case deleteNewIMplementation was failed
+11:49:59.934 INFO  CustomLog -The test deleteNewIMplementation has failedorg.openqa.selenium.WebDriverException: unknown error: Element <button _ngcontent-c7="" class="home-implementation-data-btn home-implementation-delete-btn ng-star-inserted" type="button">...</button> is not clickable at point (1286, 528). Other element would receive the click: <div _ngcontent-c10="" class="popup-body show-flex-display" id="select_first_implementation">...</div>
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.14.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Bhabanis-MacBook-Air.local', ip: 'fc00:0:0:0:0:0:0:13a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/gw/3mc_q9b56fj...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49927}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: ac3586a817dde0abf198a98d736a1827
+11:52:16.827 INFO  CustomLog -Browser opening in full screen
+11:52:38.209 INFO  CustomLog -URL entered and the browser is navigated to the page
+11:52:38.242 INFO  CustomLog -***********************************************
+11:52:38.243 INFO  CustomLog -TestCase loginToSocio starts
+11:52:38.243 INFO  CustomLog -***********************************************
+11:52:38.243 INFO  CustomLog -The name of the test is loginToSocio
+11:52:40.621 INFO  CustomLog -attempting log in for socio
+11:52:41.140 INFO  CustomLog -successfully loggedin to socio
+11:52:41.153 INFO  CustomLog -The test case loginToSocio passed successfully
+11:52:41.156 INFO  CustomLog -***********************************************
+11:52:41.156 INFO  CustomLog -TestCase createNewImplementation starts
+11:52:41.156 INFO  CustomLog -***********************************************
+11:52:41.156 INFO  CustomLog -The name of the test is createNewImplementation
+11:53:27.173 INFO  CustomLog -The test case createNewImplementation passed successfully
+11:53:27.179 INFO  CustomLog -***********************************************
+11:53:27.179 INFO  CustomLog -TestCase deleteNewIMplementation starts
+11:53:27.179 INFO  CustomLog -***********************************************
+11:53:27.179 INFO  CustomLog -The name of the test is deleteNewIMplementation
+11:53:27.901 INFO  CustomLog -Trying to delete the created implementation
+11:53:31.611 ERROR CustomLog -The test case deleteNewIMplementation was failed
+11:53:31.611 INFO  CustomLog -The test deleteNewIMplementation has failedorg.openqa.selenium.WebDriverException: unknown error: Element <button _ngcontent-c7="" class="home-implementation-data-btn home-implementation-delete-btn ng-star-inserted" type="button">...</button> is not clickable at point (1286, 528). Other element would receive the click: <div _ngcontent-c10="" class="popup-body show-flex-display" id="select_first_implementation">...</div>
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.14.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Bhabanis-MacBook-Air.local', ip: 'fc00:0:0:0:0:0:0:13a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/gw/3mc_q9b56fj...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50842}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: e9f7d072356baa75fda6bdd1450e5478

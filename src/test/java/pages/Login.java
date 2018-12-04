@@ -3,6 +3,8 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import utils.UserData;
+
 
 
 public class Login {
@@ -21,8 +23,8 @@ public class Login {
 	
 	public void socioLogin()
 	{
-		driver.findElement(email).sendKeys("walin10@gmail.com");
-		driver.findElement(password).sendKeys("walindia1234");
+		driver.findElement(email).sendKeys(utils.UserData.emailId);
+		driver.findElement(password).sendKeys(UserData.password);
 		driver.findElement(submit).click();
 	}
 

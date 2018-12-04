@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteOne]">
-  <listeners>
-    <listener class-name="listeners.ExtentListener"/>
-  </listeners>
-  <test thread-count="5" name="FirstTest(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="appTests.Practice">
         <methods>
+          <include name="createNewImplementation"/>
           <include name="deleteNewIMplementation"/>
           <include name="init"/>
         </methods>
       </class> <!-- appTests.Practice -->
     </classes>
-  </test> <!-- FirstTest(failed) -->
-</suite> <!-- Failed suite [SuiteOne] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

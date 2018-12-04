@@ -43,7 +43,7 @@ public class Practice extends Base {
 
 	@Test(priority = 1)
 	public void createNewImplementation() {
-		ci.clickCreateNewImplementation();
+		ci.chooseImplementationtypes();
 		ci.fillImplementation();
 	}
 
